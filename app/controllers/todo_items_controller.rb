@@ -1,10 +1,3 @@
-=begin
-class ApplicationController < ActionController::Base
-end
-=end
-
-#create controller threw terminal putting rails g controller todo_items
-
 class TodoItemsController < ApplicationController
  before_action :set_todo_list
 def create
